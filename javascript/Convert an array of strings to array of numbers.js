@@ -1,0 +1,1 @@
+toNumberArray=(stringarray)=>stringarray.map(n=>+n)
