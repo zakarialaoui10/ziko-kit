@@ -1,7 +1,1 @@
-# my-codewars-Solutions
-
-
-
-
-
-
+# my-codewars-Solutions 
