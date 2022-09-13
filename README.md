@@ -1,12 +1,11 @@
-# my-codewars-Solutions 
- 
- 
+# my-codewars-Solutions  
 ## Isogram
+```javascript  
 isIsogram=str=>{
 return [...new Set(str.toLowerCase())].length===str.length
 }
+```  
 ##  Unique In Order
-
 ```javascript  
 uniqueInOrder=(iterable)=>{
 let arr=[];
