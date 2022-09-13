@@ -1,5 +1,10 @@
 # my-codewars-Solutions 
  
+ 
+## Isogram
+isIsogram=str=>{
+return [...new Set(str.toLowerCase())].length===str.length
+}
 ##  Unique In Order
 
 ```javascript  
