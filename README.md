@@ -3,9 +3,11 @@
 
 
 ```c      
-#include<stdio.h>   
-int main(){  
-  printf("hello world"); 
-  return 0;
-}   
+uniqueInOrder=(iterable)=>{
+let arr=[];
+for(let i=0;i<iterable.length;i++){
+iterable[i]!=iterable[i+1]&&arr.push(iterable[i])
+}
+return arr;
+} 
 ```  
