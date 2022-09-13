@@ -1,6 +1,6 @@
 # my-codewars-Solutions 
  
-
+##  Unique In Order
 
 ```javascript  
 uniqueInOrder=(iterable)=>{
