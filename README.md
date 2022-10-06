@@ -14,4 +14,5 @@ iterable[i]!=iterable[i+1]&&arr.push(iterable[i])
 }
 return arr;
 } 
-```  
+```
+
