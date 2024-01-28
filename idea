@@ -1,0 +1,10 @@
+build
+ jsdom
+ssr 
+ express
+pwa
+ manifest 
+ service worker
+ssg
+ jsdom
+isr = ssr + ssg 
