@@ -11,3 +11,5 @@ ssg
  jsdom
  express
 isr = ssr + ssg 
+
+cli 
