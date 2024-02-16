@@ -13,3 +13,4 @@ ssg
 isr = ssr + ssg 
 
 cli 
+extension 
