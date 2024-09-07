@@ -14,3 +14,5 @@ isr = ssr + ssg
 
 cli 
 extension 
+jsx
+mdx

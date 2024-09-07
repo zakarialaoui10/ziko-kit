@@ -1,0 +1,33 @@
+{
+  "name": "ziko-kit",
+  "version": "0.0.0",
+  "description": "",
+  "main": "Core/index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zakarialaoui10/ziko-kit.git"
+  },
+  "author": "zakaria elaloui",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/zakarialaoui10/ziko-kit/issues"
+  },
+  "homepage": "https://github.com/zakarialaoui10/ziko-kit#readme",
+  "dependencies": {
+    "asciidoctor": "^3.0.4",
+    "express": "^4.19.2",
+    "marked": "^14.1.1",
+    "textile-js": "^2.1.1",
+    "ziko": "^0.0.11"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.25.6",
+    "@babel/core": "^7.25.2",
+    "@babel/plugin-transform-react-jsx": "^7.25.2",
+    "@babel/preset-env": "^7.25.4"
+  }
+}
