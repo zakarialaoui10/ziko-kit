@@ -5,7 +5,7 @@
   "main": "Core/index.js",
   "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "npx jasmine --config=jasmine.json"
   },
   "repository": {
     "type": "git",
@@ -28,6 +28,7 @@
     "@babel/cli": "^7.25.6",
     "@babel/core": "^7.25.2",
     "@babel/plugin-transform-react-jsx": "^7.25.2",
-    "@babel/preset-env": "^7.25.4"
+    "@babel/preset-env": "^7.25.4",
+    "jasmine": "^5.2.0"
   }
 }
