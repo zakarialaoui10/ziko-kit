@@ -1,4 +1,4 @@
-import { md2html } from "../files/convert";
+import { md2html } from "../../src/files/convert";
 const mdcontent = `
 # Hello World
 This is **Markdown** content!
