@@ -7,6 +7,11 @@
   "scripts": {
     "test": "npx jasmine --config=jasmine.json"
   },
+  "exports": {
+    "./ui":{
+      "import": "./"
+    }
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/zakarialaoui10/ziko-kit.git"
@@ -18,11 +23,13 @@
   },
   "homepage": "https://github.com/zakarialaoui10/ziko-kit#readme",
   "dependencies": {
+    "@babel/preset-react": "^7.24.7",
     "asciidoctor": "^3.0.4",
+    "babel-plugin-module-resolver": "^5.0.2",
     "express": "^4.19.2",
+    "jsdom": "^25.0.0",
     "marked": "^14.1.1",
-    "textile-js": "^2.1.1",
-    "ziko": "^0.0.11"
+    "textile-js": "^2.1.1"
   },
   "devDependencies": {
     "@babel/cli": "^7.25.6",

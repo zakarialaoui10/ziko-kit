@@ -1,14 +1,10 @@
 {
     "presets": [
-        "@babel/preset-env"
-    ],
-    "plugins": [
-      [
-        "@babel/plugin-transform-react-jsx",
-        {
-          "pragma": "ZikoJsx"
-        }
-      ]
+        ["@babel/preset-react", {
+            "runtime": "automatic",
+            "importSource": "ziko"
+          }]
     ]
+    
   }
   
