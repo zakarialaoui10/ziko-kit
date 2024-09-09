@@ -8,7 +8,7 @@
     "test": "npx jasmine --config=jasmine.json"
   },
   "exports": {
-    "./ui":{
+    "./ui": {
       "import": "./"
     }
   },
@@ -25,7 +25,6 @@
   "dependencies": {
     "@babel/preset-react": "^7.24.7",
     "asciidoctor": "^3.0.4",
-    "babel-plugin-module-resolver": "^5.0.2",
     "express": "^4.19.2",
     "jsdom": "^25.0.0",
     "marked": "^14.1.1",
@@ -34,8 +33,6 @@
   "devDependencies": {
     "@babel/cli": "^7.25.6",
     "@babel/core": "^7.25.2",
-    "@babel/plugin-transform-react-jsx": "^7.25.2",
-    "@babel/preset-env": "^7.25.4",
     "jasmine": "^5.2.0"
   }
 }
