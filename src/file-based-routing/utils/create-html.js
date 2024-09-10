@@ -12,12 +12,12 @@ function createHtmlFiles(folders = [], content = "") {
 export {
     createHtmlFiles
 }
-// // Example usage:
-// const paths = [
-//     "pages/",
-//     "pages/app1",
-//     "pages/nested/app2",
-// ];
-// const contentString = "<html><body><h1>Hello World</h1></body></html>";
+// Example usage:
+const paths = [
+    "pages/",
+    "pages/app1",
+    "pages/nested/app2",
+];
+const contentString = "<html><body><h1>Hello World</h1></body></html>";
 
-// createHtmlFiles(paths, contentString);
+createHtmlFiles(paths, contentString);

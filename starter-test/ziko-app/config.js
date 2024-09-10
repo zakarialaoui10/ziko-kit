@@ -17,7 +17,7 @@ const config={
             const directoryPath = path.dirname(relativePath); 
             const fileNameWithoutExt = path.basename(relativePath, path.extname(relativePath)); 
             const resultPath = path.join(directoryPath, fileNameWithoutExt);
-            return `pages/${resultPath}.js`
+            return `pages/${resultPath}/index.js`
           },
           dir: 'dist',
         },
