@@ -1,0 +1,23 @@
+{
+  "name": "my-vite-app",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite --config vite.config.js",
+    "build": "vite build --config vite.config.js",
+    "preview": "vite preview --config vite.config.js"
+  },
+  "devDependencies": {
+    "@rollup/plugin-html": "^1.0.3",
+    "vite": "^5.4.1",
+    "vite-plugin-html": "^3.2.2"
+  },
+  "dependencies": {
+    "@vitejs/plugin-react": "^4.3.1",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "vite-plugin-markdown": "^2.2.0",
+    "ziko": "^0.0.12"
+  }
+}
