@@ -1,4 +1,4 @@
-import { routesParser } from "../../__src/file-based-routing/index.js";
+import { routesParser } from "../../../src/file-based-routing/routes-parser.js";
 let Test1 = routesParser('articles/art1');
 describe("Static Route", function() {
     it("__", function() {

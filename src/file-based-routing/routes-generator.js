@@ -1,5 +1,6 @@
 import path from "path"
 import { dir2tree } from "./utils/dir2tree.js";
+import { pathNormalizer } from "./utils/path-normalizer.js";
 function flatDirTree(folderStructure, currentPath = '') {
     let flattenedRoutes = [];
     const newPath = path.join(currentPath, folderStructure.name);
@@ -13,7 +14,7 @@ function flatDirTree(folderStructure, currentPath = '') {
     }
     return flattenedRoutes;
 }
-const routesGenerator = root => flatDirTree( dir2tree(root));
+const routesGenerator = root => flatDirTree( dir2tree(root)).map(n=>pathNormalizer(n));
 export{
     routesGenerator
 }
