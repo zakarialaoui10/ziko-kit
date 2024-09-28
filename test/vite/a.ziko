@@ -1,0 +1,9 @@
+import {text} from "ziko"
+function Text(){
+    return text("hello")
+}
+export default function Test(){
+    return (
+        <Text />
+    )
+}

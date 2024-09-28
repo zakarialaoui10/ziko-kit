@@ -1,7 +1,7 @@
 import { csv2object } from "ziko";
 export function ZikoViteCsv() {
     return {
-      name: 'ziko-vite-csv',
+      name: 'ziko-vite-plugin-csv',
       transform(src, id) {
         if (id.endsWith(".csv")) {
           const records = csv2object(src)
