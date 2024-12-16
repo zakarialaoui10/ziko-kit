@@ -1,3 +1,11 @@
 # Ziko-kit
- express
- 
+
+<!--
+rendering :
+   - CSR ✅
+   - SSG ☑
+   - SSR ❌
+   - ISR ❌
+routing : file-based 
+build : vite 
+-->
