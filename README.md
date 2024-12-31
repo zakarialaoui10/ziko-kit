@@ -10,5 +10,7 @@ routing : file-based
 build : vite 
 cli : ziko start ... 
 
+partial hydration  
+
 inquirer + picocolors 
 -->
