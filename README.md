@@ -13,4 +13,10 @@ cli : ziko start ...
 partial hydration  
 
 inquirer + picocolors 
+
+To Do
+
+ i18n
+ search
+ sitemap
 -->
