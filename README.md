@@ -19,4 +19,5 @@ To Do
  i18n
  search
  sitemap
+ auth
 -->
