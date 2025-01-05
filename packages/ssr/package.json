@@ -1,0 +1,16 @@
+{
+  "name": "ziko-ssr",
+  "version": "0.0.0",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "zakaria elalaoui",
+  "license": "MIT",
+  "description": "",
+  "dependencies": {
+    "jsdom": "^25.0.1",
+    "ziko": "^0.0.23"
+  }
+}
