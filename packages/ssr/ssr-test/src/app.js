@@ -1,6 +1,6 @@
 import Comp from "./Comp.js";
 
-const App = () => Comp("Hello")
+const App = (msg = "Hello") => Comp(msg)
 
 const Head =10
 
