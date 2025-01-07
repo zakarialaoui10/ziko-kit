@@ -4,17 +4,18 @@ const {document} = new JSDOM().window;
 globalThis.document = document
 
 
-const pages = await import.meta.glob("./pages/**/*{.js,.mdz}")
-const routes = Object.keys(pages)
-const root = "./pages/";
-const pairs = {}
-for(let i=0; i<routes.length; i++){
-  const module = await pages[routes[i]]()
-  const component = await module.default
-  Object.assign(pairs,{[customPath(routes[i], root)]:component})
-}
+const pages = import.meta.glob("./pages/**/*{.js,.mdz}")
 
-export function render(path) {
+
+export async function render(path) {
+  const routes = Object.keys(pages)
+  const root = "./pages/";
+  const pairs = {}
+  for(let i=0; i<routes.length; i++){
+    const module = await pages[routes[i]]()
+    const component = await module.default
+    Object.assign(pairs,{[customPath(routes[i], root)]:component})
+  }
   let [mask, callback]=Object.entries(pairs).find(([route,])=>routesMatcher(route,`/${path}`))
   console.log({mask, callback})
   let UIElement;

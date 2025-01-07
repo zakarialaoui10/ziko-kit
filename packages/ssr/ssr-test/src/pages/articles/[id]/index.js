@@ -1,5 +1,15 @@
-import {Article, h1} from "ziko"
+import {h1, Suspense} from "ziko"
 
-const App = ({id}) => h1(`Article ${id}`).onClick(()=>console.log({Article : id}))
+const ui=async (id)=>{
+    const api = await fetch(`https://jsonplaceholder.typicode.com/todos/${id}`)
+    const res = await api.json()
+    return h1(res.title)
+}
 
+const App = ({id}) =>{
+    return Suspense(
+        h1("... waiting"), 
+        ()=>ui(id)
+    )
+}
 export default App
