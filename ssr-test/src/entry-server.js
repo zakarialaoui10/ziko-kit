@@ -1,11 +1,14 @@
-import {EntryServer} from "ziko-server/entry-server";
-const render = EntryServer({
-  pages : import.meta.glob("./pages/**/*{.js,.mdz}")
+import {defineServerEntry} from "ziko-server/entry-server";
+export default defineServerEntry({
+   pages : import.meta.glob("./pages/**/*{.js,.mdz}")
 })
+// const render = EntryServer({
+//   pages : import.meta.glob("./pages/**/*{.js,.mdz}")
+// })
 
-export{
-  render
-}
+// export{
+//   render
+// }
 // import {JSDOM} from "jsdom"
 // import {customPath, routesMatcher, dynamicRoutesParser, isDynamic} from "../utils"
 // const {document} = new JSDOM().window;
