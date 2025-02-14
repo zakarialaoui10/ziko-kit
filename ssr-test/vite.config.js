@@ -1,3 +1,4 @@
+import zikoPlugin from "./ziko-server-plugin.js"
 function myPlugin() {
   const virtualModuleId = 'virtual:entry'
   const resolvedVirtualModuleId = '\0' + virtualModuleId
@@ -21,12 +22,12 @@ function myPlugin() {
   }
 }
 export default {
-  plugins: [
-    myPlugin()
-  ],
-  build: {
-    rollupOptions: {
-      input: 'virtual:entry', 
-    },
-  },
+  // plugins: [
+  //   myPlugin()
+  // ],
+  // build: {
+  //   rollupOptions: {
+  //     input: 'virtual:entry', 
+  //   },
+  // },
 };
