@@ -5,8 +5,8 @@ const ui=async ()=>{
     const res = await api.json()
     return h1(res.title)
 }
-ui()
-const App = () =>{
+// ui()
+const App = async () =>{
     return Suspense(
         h1("Me"), ui
     )
