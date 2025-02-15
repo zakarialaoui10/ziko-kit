@@ -1,7 +1,7 @@
 import {h1} from "ziko"
-const api = await fetch('https://jsonplaceholder.typicode.com/todos/1')
-const res = await api.json()
-console.log(res.title)
+// const api = await fetch('https://jsonplaceholder.typicode.com/todos/1')
+// const res = await api.json()
+// console.log(res.title)
 const App = () =>{
     return h1(res.title)
 }
