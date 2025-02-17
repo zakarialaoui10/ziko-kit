@@ -1,7 +1,7 @@
 
 import zikoPlugin from "./ziko-server-plugin.js"
 function myPlugin() {
-  const virtualModuleId = 'virtual:entry'
+  const virtualModuleId = 'virtual:client-entry'
   const resolvedVirtualModuleId = '\0' + virtualModuleId
 
   return {
@@ -14,21 +14,25 @@ function myPlugin() {
     load(id) {
       if (id === resolvedVirtualModuleId) {
         return `
-        import { createServer } from "ziko-server/server";
-        console.log(1)
-        createServer()
+        import {EntryClient} from "ziko-server/entry-client";
+        EntryClient({
+          pages : import.meta.glob("./pages/**/*{.js,.mdz}")
+        })
         `
       }
     },
   }
 }
 export default {
-  // plugins: [
-  //   myPlugin()
-  // ],
+  plugins: [
+    // myPlugin()
+  ],
   // build: {
   //   rollupOptions: {
   //     input: 'virtual:entry', 
   //   },
   // },
+  build: {
+    target: 'esnext', // suport top level await in prod
+  }
 };
