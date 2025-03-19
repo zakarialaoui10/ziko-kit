@@ -4,7 +4,7 @@ rendering :
    - CSR ✅
    - SSG ☑
    - SSR ❌
-   - ISR ❌
+   - ISR ❌ 
 routing : file-based 
 build : vite 
 cli : ziko start ... 
