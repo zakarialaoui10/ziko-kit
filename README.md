@@ -9,6 +9,7 @@
   - async rendering (ssr ✅️, ssg✅️)
   - file based routing (ssr ✅️, ssg✅️)
   - hydration (ssr ✅️, ssg❌️)
+  - 404 fallback ❌️
 - [mdzjs]()
 - [zextra]()
 - [ziko-wrapper]()
