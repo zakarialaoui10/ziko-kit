@@ -1,4 +1,25 @@
 # Ziko-kit
+
+- [zikojs]()
+- [ziko-server]()
+  - static routes (ssr ✅️, ssg✅️)
+  - dynamic routes (ssr ✅️, ssg✅️)
+  - nested routes (ssr ✅️, ssg✅️)
+  - sync rendering (ssr ✅️, ssg✅️)
+  - async rendering (ssr ✅️, ssg✅️)
+  - file based routing (ssr ✅️, ssg✅️)
+  - hydration (ssr ✅️, ssg❌️)
+- [mdzjs]()
+- [zextra]()
+- [ziko-wrapper]()
+- [ziko-cli]()
+- [ziko-rss]()
+- [fyndra]()
+- [ziko-i18n]()
+
+
+
+
 <!--
 rendering :
    - CSR ✅
