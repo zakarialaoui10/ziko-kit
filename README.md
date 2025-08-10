@@ -18,6 +18,7 @@
 - [fyndra]()
 - [ziko-i18n]()
 
+Testing : Unit : Jest 
 
 
 
