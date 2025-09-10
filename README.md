@@ -10,15 +10,16 @@
   - file based routing (ssr ✅️, ssg✅️)
   - hydration (ssr ✅️, ssg❌️)
   - 404 fallback ❌️
-- [mdzjs]()
+- [mdzjs]() 
 - [zextra]()
 - [ziko-wrapper]()
 - [ziko-cli]()
 - [ziko-rss]()
 - [fyndra]()
 - [ziko-i18n]()
+- [ziko-content]()
 
-Testing : Unit : Jest 
+Testing : Vitest
 
 
 
