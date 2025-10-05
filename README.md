@@ -8,7 +8,7 @@
   - sync rendering (ssr ✅️, ssg✅️)
   - async rendering (ssr ✅️, ssg✅️)
   - file based routing (ssr ✅️, ssg✅️)
-  - hydration (ssr ✅️, ssg❌️)
+  - hydration (ssr ✅️, ssg✅️)
   - 404 fallback ❌️
 - [mdzjs]() 
 - [zextra]()
@@ -18,6 +18,7 @@
 - [fyndra]()
 - [ziko-i18n]()
 - [ziko-content]()
+- [ziko-orm]() : On the top of drizzle Orm 
 
 Testing : Vitest
 
@@ -26,7 +27,7 @@ Testing : Vitest
 <!--
 rendering :
    - CSR ✅
-   - SSG ☑
+   - SSG 
    - SSR ❌
    - ISR ❌ 
 routing : file-based 
