@@ -10,6 +10,7 @@
   - file based routing (ssr ✅️, ssg✅️)
   - hydration (ssr ✅️, ssg✅️)
   - 404 fallback ❌️
+  - wildcard 
 - [mdzjs]() 
 - [zextra]()
 - [ziko-wrapper]()
