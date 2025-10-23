@@ -44,7 +44,7 @@ To Do
  i18n
  search
  sitemap
- auth
+ locals : auth
  db 
  loaders 
  usin vfile in Loaders
