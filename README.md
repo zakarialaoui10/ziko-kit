@@ -30,7 +30,7 @@ rendering :
    - CSR ✅
    - SSG 
    - SSR ❌
-   - ISR ❌ 
+   - ISR ❌ ( nested cache ) 
 routing : file-based 
 build : vite 
 cli : ziko start ... 
