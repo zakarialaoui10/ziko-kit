@@ -9,6 +9,8 @@
   - async rendering (ssr ✅️, ssg✅️)
   - file based routing (ssr ✅️, ssg✅️)
   - hydration (ssr ✅️, ssg✅️)
+  - api
+  - middleware 
   - 404 fallback ❌️
   - wildcard 
 - [mdzjs]() 
