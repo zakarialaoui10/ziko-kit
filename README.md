@@ -10,7 +10,7 @@
   - file based routing (ssr ✅️, ssg✅️)
   - hydration (ssr ✅️, ssg✅️)
   - api
-  - middleware 
+  - middleware ✅️
   - 404 fallback ❌️
   - wildcard 
 - [mdzjs]() 
