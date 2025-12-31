@@ -23,7 +23,7 @@
 - [ziko-i18n]()
 - [ziko-content]()
 - [ziko-orm]() : On the top of drizzle Orm 
-
+- numz
 Testing : Vitest
 
 
