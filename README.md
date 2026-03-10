@@ -2,7 +2,7 @@
 
 - [zikojs]()
   - ts signature  ✅️ 
-- zikofy
+- zikofy 
 - [ziko-server]()
   - static routes (ssr ✅️, ssg✅️)
   - dynamic routes (ssr ✅️, ssg✅️)
